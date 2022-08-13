@@ -5,6 +5,15 @@
   <meta charset="utf-8">
   <title>TinDog</title>
 
+
+
+  
+<link href="https://fonts.googleapis.com/css2?family=Merriweather&family=Montserrat&family=Outfit:wght@400;700&family=Roboto:wght@300&family=Sacramento&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Merriweather&family=Montserrat&family=Outfit:wght@400;700&family=Roboto:wght@300&family=Sacramento&display=swap" rel="stylesheet">
+
+
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
@@ -21,8 +30,9 @@
 
   <section id="title">
 
+    <div class="container-fluid">
     <!-- Nav Bar -->
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <nav class="navbar navbar-expand-lg navbar-dark">
       <a class="navbar-brand" href="">tindog</a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02"
         aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
@@ -47,14 +57,21 @@
 
     <!-- Title -->
 
-    <div>
-      <h1>Meet new and interesting dogs nearby.</h1>
-      <button type="button">Download</button>
-      <button type="button">Download</button>
+    <div class="row">
+      
+      <div class="col-lg-6">
+      <h1 class="desc">Meet new and interesting dogs nearby.</h1>
+      <button type="button" class="btn  btn-dark btn-secondary btn-lg">Download</button>
+      <button type="button" class="btn btn-outline-light btn-lg">Download</button>
+    
     </div>
-    <div>
+
+    <div class="col-lg-6">
       <img src="images/iphone6.png" alt="iphone-mockup">
     </div>
+
+    </div>
+  </div>
 
   </section>
 

@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather&family=Montserrat:ital,wght@0,100;0,400;0,900;1,100;1,400;1,900&family=Outfit:wght@400;700&family=Roboto:wght@300&family=Sacramento&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather&family=Montserrat:ital,wght@0,100;0,400;0,900;1,100;1,400;1,900&family=Outfit:wght@400;700&family=Roboto:wght@300&family=Sacramento&display=swap');
+
+#title {
+    background-color: #ff4c68;
+}
+
+h1 {
+    font-family:Montserrat,sans-serif;
+    font-weight: 900;
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+.container-fluid {
+    padding: 3% 15%;
+}
