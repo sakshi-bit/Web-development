@@ -27,7 +27,7 @@ h3{
 }
 
 .container-fluid {
-    padding: 3% 15%;
+    padding: 3% 15% 7%;
 }
 
 
@@ -64,10 +64,19 @@ h3{
 .rotate-mobile {
     transform: rotate(25deg);
     width: 60%;
+    margin-bottom: -60%;
+}
+
+.positioning {
+    position: relative;
+    left: 80px;
 }
 
 #features {
     padding: 7% 15%;
+    background-color: #fff;
+    position: relative;
+    z-index: 1;
 
 }
 
@@ -130,6 +139,17 @@ h3{
 
 .carousel-item {
     padding: 7% 15%;
+}
+
+/* pricing section */
+
+#pricing {
+    padding: 100px;
+    text-align: center;
+}
+
+.pricing-column {
+    padding-left: 3% 2%;;
 }
 
 
