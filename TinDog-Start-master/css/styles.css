@@ -6,10 +6,17 @@ body {
     font-weight: 500;
 }
 
+
+
+
 #title {
     background-color: #ff4c68;
     color: #fff;
 }
+
+
+
+
 
 h1 {
     font-family: 'Montserrat', sans-serif;
@@ -65,7 +72,31 @@ h3{
     transform: rotate(25deg);
     width: 60%;
     margin-bottom: -60%;
+    z-index: 0;
 }
+
+
+
+@media(max-width:990px) {
+    #title {
+        text-align: center;
+    }
+    .rotate-mobile {
+    
+        position: static;
+        transform: rotate(0deg);  
+        width: 40%;
+        margin-bottom: 5%;
+        
+        }
+
+
+}
+
+
+
+
+
 
 .positioning {
     position: relative;
@@ -76,9 +107,11 @@ h3{
     padding: 7% 15%;
     background-color: #fff;
     position: relative;
-    z-index: 1;
+
+    /* z-index: 1; */
 
 }
+
 
 .features-col{
     text-align: center;
@@ -153,4 +186,56 @@ h3{
 }
 
 
+/* call to Action */
+
+#cta {
+        padding: 7% 15%;
+        background-color: #ff4c68;
+        color: #fff; 
+        
+        
+}
+.cta_des {
+    
+    font-family: 'Montserrat';
+    font-weight: bold;
+    font-size: 3.5rem;
+    line-height: 1.5;
+    text-align: center;
+    
+    
+
+    
+}
+.cta-col {
+    text-align: center;
+    margin: 0 auto 0 auto;
+    width: 100%;
+}
+
+
+/* footer */
+
+#footer {
+    padding: 7% 15%;
+    background-color: #fff;
+    text-align: center;
+    
+}
+
+.copyright {
+    text-align: center;
+    color: gray;
+
+    width: 100%;
+}
+
+.logo {
+    margin: 5% 1% 0 0;
+}
+
+.brand {
+    text-align: center;
+    margin: 0 auto 0 auto;
+}
 
